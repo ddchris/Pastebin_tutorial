@@ -21158,3 +21158,32 @@ C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\Extens
 2018-01-04T14:07:17: Deleting 2 files
 2018-01-04T14:07:17: Deleting "D:\Pastebin\env\.ptvs\_dummy_threading.idb"
 2018-01-04T14:07:17: Deleting "D:\Pastebin\env\.ptvs\_dummy__threading_local.idb"
+
+2018-01-04T16:06:02: Start analysis
+2018-01-04T16:06:02: IncludeModulesFromModulePath = win32com
+2018-01-04T16:06:03: Deleting 0 files
+
+2018-01-04T16:07:05: Start analysis
+2018-01-04T16:07:05: IncludeModulesFromModulePath = win32com
+2018-01-04T16:07:06: Including d:\pastebin\env\lib\site-packages\corsheaders because corsheaders.checks needs updating
+2018-01-04T16:07:06: Deleting 0 files
+2018-01-04T16:07:06: astropy.CallDepth = 0
+2018-01-04T16:07:06: delphixpy.CallDepth = 0
+2018-01-04T16:07:06: matplotlib.CallDepth = 3
+2018-01-04T16:07:06: pandas.CallDepth = 0
+2018-01-04T16:07:06: sympy.CallDepth = 0
+2018-01-04T16:07:06: Start group "d:\pastebin\env\lib\site-packages\corsheaders" with 8 files
+2018-01-04T16:07:07: Parsing complete
+2018-01-04T16:07:07: Analyzing "corsheaders.checks" ("d:\pastebin\env\lib\site-packages\corsheaders\checks.py")
+2018-01-04T16:07:07: Analyzing "corsheaders.compat" ("d:\pastebin\env\lib\site-packages\corsheaders\compat.py")
+2018-01-04T16:07:07: Analyzing "corsheaders.conf" ("d:\pastebin\env\lib\site-packages\corsheaders\conf.py")
+2018-01-04T16:07:07: Analyzing "corsheaders.defaults" ("d:\pastebin\env\lib\site-packages\corsheaders\defaults.py")
+2018-01-04T16:07:07: Analyzing "corsheaders.middleware" ("d:\pastebin\env\lib\site-packages\corsheaders\middleware.py")
+2018-01-04T16:07:07: Analyzing "corsheaders.models" ("d:\pastebin\env\lib\site-packages\corsheaders\models.py")
+2018-01-04T16:07:07: Analyzing "corsheaders.signals" ("d:\pastebin\env\lib\site-packages\corsheaders\signals.py")
+2018-01-04T16:07:07: Analyzing "corsheaders" ("d:\pastebin\env\lib\site-packages\corsheaders\__init__.py")
+2018-01-04T16:07:07: Starting analysis of 8 modules
+2018-01-04T16:07:08: Analysis complete
+2018-01-04T16:07:08: Saving group "d:\pastebin\env\lib\site-packages\corsheaders"
+2018-01-04T16:07:08: End of group "d:\pastebin\env\lib\site-packages\corsheaders"
+2018-01-04T16:07:09: Deleting 0 files

@@ -36,11 +36,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'corsheaders',
 
 #   Add new snippets app and the rest_framework app to INSTALLED_APPS. 
     'rest_framework',
     'snippets.apps.SnippetsConfig'
 ]
+
+CORS_ORIGIN_ALLOW_ALL = True
 
 '''
 Note that settings in REST framework are all namespaced into a single dictionary setting
@@ -55,6 +58,7 @@ REST_FRAMEWORK = {
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
