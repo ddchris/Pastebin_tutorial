@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath toturial.wsgi
+web: gunicorn --pythonpath toturial toturial.wsgi
