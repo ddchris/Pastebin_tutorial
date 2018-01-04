@@ -1,0 +1,7 @@
+validate_email
+uri_pattern
+re
+email_pattern
+validate_uri
+validate_format
+unknown_format

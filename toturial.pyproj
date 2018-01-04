@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{43cbb4a7-d320-443a-a9ef-9d5c4792977b}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>manage.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="manage.py" />
+    <Compile Include="snippets\admin.py" />
+    <Compile Include="snippets\apps.py" />
+    <Compile Include="snippets\migrations\__init__.py" />
+    <Compile Include="snippets\models.py" />
+    <Compile Include="snippets\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="snippets\permissions.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="snippets\serializers.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="snippets\tests.py" />
+    <Compile Include="snippets\urls.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="snippets\views.py" />
+    <Compile Include="toturial\pastebin_settings.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="toturial\settings.py" />
+    <Compile Include="toturial\urls.py" />
+    <Compile Include="toturial\wsgi.py" />
+    <Compile Include="toturial\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="snippets" />
+    <Folder Include="snippets\migrations" />
+    <Folder Include="toturial" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
+      <Id>env</Id>
+      <Version>3.5</Version>
+      <Description>env (Python 3.5 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore.txt" />
+    <Content Include="requirements.txt" />
+    <Content Include="Procfile" />
+    <Content Include="runtime.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

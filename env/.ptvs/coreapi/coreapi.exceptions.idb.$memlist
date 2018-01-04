@@ -1,0 +1,8 @@
+ParseError
+ErrorMessage
+unicode_literals
+ParameterError
+NetworkError
+NoCodecAvailable
+LinkLookupError
+CoreAPIException
