@@ -3,4 +3,5 @@ __pycache__/
 .vs/
 toturial.pyproj
 toturial.sln
+db.sqlite3
 
